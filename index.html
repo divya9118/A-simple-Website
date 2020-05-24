@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Landing Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="navbar">
+        <ul id="navbarc">
+            <li id="welcome"><b>Welcome</b></li>
+            <li id="signin">Sign in</li>
+            <li id="signup">Sign up</li>
+          </ul>
+        </div> 
+        <div id = "main"><h1>Coffee Lover</h1>
+        <h2 id="first">Welcome to Project</h2>
+        <p>Here are the image links</p>
+        <ul>
+            
+            <li><a href="image1.jpg" > One</a></li>
+            <li><a href="image2.jpg" > TWo</a></li>
+            <li><a href="image3.jpg" > Three</a></li>
+            <li><a href="image4.jpg" > Four</ a></li>
+            <li><a href="image5.jpg" > Five</a></li>
+            <li><a href="image6.jpg" > Six</a></li>
+            
+        </ul>
+        </div>
+        <div id="form" style="display: none;">
+            <div id="formin">
+            <h1 id="signh">Sign up for our upcoming launch!</h1>
+        <form >
+          <div class="formc">
+               <label for="firstname">First Name</label><br>
+               <input type="text" placeholder="Enter First Name" name="firstname" required>
+          </div>
+          <div class="formc"> 
+               <label for="lastname">Last Name</label><br>
+               <input type="text" placeholder="Enter Last Name" name="lastname" required>
+           </div>
+           <div class="formc"> 
+               <label for="email">Email</label><br>
+               <input type="text"placeholder="Enter Email" name="email" required>
+           </div>
+           <div class="formc"> 
+               <label for="psw">Password</label><br>
+               <input type="password" placeholder="Enter Password" name="psw" required>
+           </div>
+            <div class="formc">
+               <label for="psw-repeat">Repeat Password</label><br>
+               <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            </div>
+            <div class="formc">
+                 <button type="submit" id="signbut">Sign me up!</button>
+            </div>
+        </form>
+            </div>
+        </div>
+        <div id="login">
+            <div id="loginc">
+            <h1>Log In</h1>
+            <p>Enter your email and password </p>
+            </div>
+        <form  >
+           <div class="loginitem"> 
+               <label for="email">Email</label><br>
+               <input  id="name" type="text"placeholder="Enter Email" name="email" required>
+           </div>
+           <div class="loginitem"> 
+               <label for="psw">Password</label><br>
+               <input type="password" placeholder="Enter Password" name="psw" required>
+           </div>
+           <div class="loginitem"> <label>
+            <input type="checkbox" checked="checked" name="remember"> Keep me logged in</label>
+           </div>
+            <div>
+                 <button type="submit" onclick=" return fun();" id="signbut">Submit</button>
+            </div>
+              
+        </form>
+        </div>
+        <div id="pictures" style="display: none;"> 
+        <h1>Pictures</h1>
+        <div class="grid-wrapper">
+            <div class="box " ><img src="image1.jpg"></div>
+            <div class="box" ><img src="image2.jpg"></div>
+            <div class="box" ><img src="image3.jpg"></div>
+            <div class="box" ><img src="image4.jpg"></div>
+            <div class="box" ><img src="image5.jpg"></div>
+            <div class="box" > <img src="image6.jpg"></div>
+            <div class="box" > <img src="image5.jpg"></div>
+            <div class="box" > <img src="image6.jpg"></div>
+       
+       </div>
+    </div>
+
+    
+        <script type="text/javascript" src ="script.js"></script>
+        </body>
+</html>
